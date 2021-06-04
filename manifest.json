@@ -1,0 +1,31 @@
+{
+  "name": "kiwiPlugIn",
+  "description" : "這是一款由貓虎皮開發的全自動網奇外掛!",
+  "version": "2.0.1.9",
+  "manifest_version": 2,
+  "icons": {
+    "128": "/kiwiPlugIn.png", 
+    "16": "/kiwiPlugIn.png",
+    "48": "/kiwiPlugIn.png"
+  },
+  "content_scripts": [ {
+    "all_frames": false,
+    "js": [ "kiwiPlugIn.js" ],
+    "matches": [ "http://*/*", "https://*/*" ],
+    "run_at": "document_end"
+  } ],
+  "browser_action": {
+    "default_icon": {
+      "128": "/kiwiPlugIn.png", 
+      "16": "/kiwiPlugIn.png",
+      "48": "/kiwiPlugIn.png"
+    },
+    "default_title": "kiwiPlugInInfo",
+    "default_popup": "kiwiPlugIn.html"
+  },
+  "homepage_url": "https://github.com/MaoHuPi/kiwiPlugIn",
+  "incognito": "spanning",
+  "omnibox": {
+     "keyword": "kiwi"
+  }
+}
