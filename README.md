@@ -11,3 +11,5 @@
 
 其它備註：
 > 貓虎皮寫的第二個網奇工具
+
+![KiwiPlugIn專案封面](https://github.com/kiwi360360/kiwiPlugIn/blob/main/開發備註/cover.png?raw=true)
